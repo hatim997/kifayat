@@ -1,0 +1,99 @@
+.dashboard-header {
+    background: transparent;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard-header h4 {
+    color: #111827;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    /* 120% */
+}
+
+.dashboard-header p {
+    color: #4B5563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.resource-box {
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    background: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+    width: 100%;
+}
+
+.resource-box .resource-box-title {
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+.resource-box .resource-box-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.resource-box-cards .card {
+    border-radius: 12px;
+    border: 2px dashed #D1D5DB;
+    background: rgba(0, 0, 0, 0.00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+}
+
+.resource-box-cards .card .fa-calculator {
+    color: #2563EB;
+    font-size: 40px;
+}
+
+.resource-box-cards .card .fa-book-open {
+    color: #9333EA;
+    font-size: 40px;
+}
+
+.resource-box-cards .card span {
+    color: #111827;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.resource-box-cards .card p {
+    color: #4B5563;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.resource-box-cards .card a {
+    color: #009F9F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
