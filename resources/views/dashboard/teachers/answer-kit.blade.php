@@ -31,7 +31,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 8 pages</span>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 10 pages</span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 11 pages</span>
                         </div>
                     </div>
                 </div>

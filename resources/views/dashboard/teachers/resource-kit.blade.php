@@ -56,7 +56,7 @@
                     <div class="vertical-bottom">
                         <span class="badge english">English</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 48 pages</span>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 24 pages</span>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 20 pages</span>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 18 pages</span>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 23 pages</span>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 95 pages</span>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 65 pages</span>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 150 pages</span>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 159 pages</span>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 145 pages</span>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 73 pages</span>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 72 pages</span>
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                     <div class="vertical-bottom">
                         <span class="badge mathematics">Mathematics</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 49 pages</span>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 71 pages</span>
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 147 pages</span>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 147 pages</span>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 188 pages</span>
                         </div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 214 pages</span>
                         </div>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 48 pages</span>
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 65 pages</span>
                         </div>
                     </div>
                 </div>
@@ -317,7 +317,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 57 pages</span>
                         </div>
                     </div>
                 </div>
@@ -329,7 +329,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 43 pages</span>
                         </div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 80 pages</span>
                         </div>
                     </div>
                 </div>
@@ -353,7 +353,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 80 pages</span>
                         </div>
                     </div>
                 </div>
@@ -365,7 +365,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 109 pages</span>
                         </div>
                     </div>
                 </div>
@@ -377,7 +377,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 108 pages</span>
                         </div>
                     </div>
                 </div>
@@ -389,7 +389,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 112 pages</span>
                         </div>
                     </div>
                 </div>
@@ -401,7 +401,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 126 pages</span>
                         </div>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 109 pages</span>
                         </div>
                     </div>
                 </div>
@@ -425,7 +425,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 103 pages</span>
                         </div>
                     </div>
                 </div>
@@ -444,7 +444,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 78 pages</span>
                         </div>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 112 pages</span>
                         </div>
                     </div>
                 </div>
@@ -468,7 +468,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 102 pages</span>
                         </div>
                     </div>
                 </div>
@@ -480,7 +480,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 116 pages</span>
                         </div>
                     </div>
                 </div>
@@ -492,7 +492,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 114 pages</span>
                         </div>
                     </div>
                 </div>
@@ -511,7 +511,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 94 pages</span>
                         </div>
                     </div>
                 </div>
@@ -523,7 +523,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 119 pages</span>
                         </div>
                     </div>
                 </div>
@@ -535,7 +535,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 108 pages</span>
                         </div>
                     </div>
                 </div>
@@ -554,7 +554,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 59 pages</span>
                         </div>
                     </div>
                 </div>
@@ -566,7 +566,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 73 pages</span>
                         </div>
                     </div>
                 </div>
@@ -578,7 +578,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 67 pages</span>
                         </div>
                     </div>
                 </div>
@@ -590,7 +590,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 63 pages</span>
                         </div>
                     </div>
                 </div>
@@ -602,7 +602,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 64 pages</span>
                         </div>
                     </div>
                 </div>
@@ -614,7 +614,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 65 pages</span>
                         </div>
                     </div>
                 </div>
@@ -633,7 +633,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 72 pages</span>
                         </div>
                     </div>
                 </div>
@@ -645,7 +645,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 86 pages</span>
                         </div>
                     </div>
                 </div>
@@ -657,7 +657,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 84 pages</span>
                         </div>
                     </div>
                 </div>
@@ -669,7 +669,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 93 pages</span>
                         </div>
                     </div>
                 </div>
@@ -681,7 +681,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 103 pages</span>
                         </div>
                     </div>
                 </div>
@@ -693,7 +693,7 @@
                     <div class="vertical-bottom">
                         <span class="badge islamiat">Islamiat</span>
                         <div class="mute-text">
-                            <span>PDF • 342 pages</span>
+                            <span>PDF • 85 pages</span>
                         </div>
                     </div>
                 </div>

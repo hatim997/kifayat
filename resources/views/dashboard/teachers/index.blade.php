@@ -37,7 +37,7 @@
                 <div class="card">
                     <i class="fa-solid fa-book-open"></i>
                     <span>Teacher’s Resources</span>
-                    <p>45 resources available</p>
+                    <p>52 resources available</p>
                     <a href="{{ route('teacher.resource-kit') }}" class="browse-btn">
                         Browse <i class="fa-solid fa-arrow-right"></i>
                     </a>
