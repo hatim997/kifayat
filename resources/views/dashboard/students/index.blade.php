@@ -78,7 +78,7 @@
         <div class="row mb-4">
             <div class="col-md-4 mb-3">
                 <div class="video-card">
-                    <div class="video-thumb position-relative" data-video="{{ asset('assets/test_video.mp4') }}">
+                    <div class="video-thumb position-relative" data-video="{{ asset('assets/videos/work-books/A-1.m4v') }}">
                         <img src="{{ asset('assets/images/video-thumbnails/latter-a.png') }}" alt="A" class="img-fluid">
                         <i class="fa-solid fa-play play-icon"
                             style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:2rem; color:white;"></i>
@@ -95,8 +95,8 @@
             </div>
             <div class="col-md-4 mb-3">
                 <div class="video-card">
-                    <div class="video-thumb position-relative" data-video="{{ asset('assets/test_video.mp4') }}">
-                        <img src="{{ asset('assets/images/video-thumbnails/latter-a.png') }}" alt="A" class="img-fluid">
+                    <div class="video-thumb position-relative" data-video="{{ asset('assets/videos/work-books/B-1.m4v') }}">
+                        <img src="{{ asset('assets/images/video-thumbnails/latter-b.png') }}" alt="B" class="img-fluid">
                         <i class="fa-solid fa-play play-icon"
                             style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:2rem; color:white;"></i>
                     </div>
@@ -112,8 +112,8 @@
             </div>
             <div class="col-md-4 mb-3">
                 <div class="video-card">
-                    <div class="video-thumb position-relative" data-video="{{ asset('assets/test_video.mp4') }}">
-                        <img src="{{ asset('assets/images/video-thumbnails/latter-a.png') }}" alt="A" class="img-fluid">
+                    <div class="video-thumb position-relative" data-video="{{ asset('assets/videos/work-books/C-1.m4v') }}">
+                        <img src="{{ asset('assets/images/video-thumbnails/latter-c.png') }}" alt="C" class="img-fluid">
                         <i class="fa-solid fa-play play-icon"
                             style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:2rem; color:white;"></i>
                     </div>
@@ -135,7 +135,7 @@
             <a href="{{ route('student.audios') }}" class="text-decoration-none view-all-btn">View All</a>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/test_audio.mp3') }}">
+            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/audios/paristan-ki-dost-pariyan.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -145,7 +145,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/test_audio.mp3') }}">
+            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/audios/raja-aur-darzi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -155,7 +155,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/test_audio.mp3') }}">
+            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/audios/circus-ka-ghora.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -165,7 +165,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/test_audio.mp3') }}">
+            <div class="col-sm-12 col-md-6 col-xl-3 me-2 mt-2 audio-card" data-audio="{{ asset('assets/audios/sone-ki-kulhadi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>

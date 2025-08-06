@@ -81,9 +81,11 @@
 }
 
 .urdu-audio-name {
+    font-family: "Noto Nastaliq Urdu", serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 100%;
+    margin-bottom: 10px;
 }
 
 .english-audio-name {

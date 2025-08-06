@@ -15,8 +15,8 @@
   </div>
   <div class="offcanvas-body d-flex flex-column justify-content-between">
     <div>
-        <a href="/profile" class="sidebar-link"><i class="fas fa-user me-2"></i> Profile</a>
-        <a href="/settings" class="sidebar-link"><i class="fas fa-cog me-2"></i> Settings</a>
+        <a href="#" class="sidebar-link"><i class="fas fa-user me-2"></i> Profile</a>
+        <a href="#" class="sidebar-link"><i class="fas fa-cog me-2"></i> Settings</a>
     </div>
     <form method="POST" action="{{ route('logout') }}">
         @csrf

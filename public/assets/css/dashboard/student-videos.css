@@ -105,3 +105,119 @@
     text-align: center;
     border: none;
 }
+
+.video-container {
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.video-container .header-nav {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    color: #009F9F;
+}
+
+.video-container .header-nav:hover {
+    background: #009F9F;
+    color: white;
+}
+
+.video-container .carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.video-container .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.video-container .product-card {
+    flex: 0 0 calc(25% - 20px);
+    margin: 0 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+/* 
+.video-container .product-card:hover {
+    transform: translateY(-10px);
+} */
+
+.video-container .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.video-container .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #cbd5e0;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.video-container .dot.active {
+    background: #009F9F;
+    transform: scale(1.2);
+}
+
+.video-container .slider-btn-left,
+.video-container .slider-btn-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.video-container .slider-btn-left {
+    left: 10px;
+}
+
+.video-container .slider-btn-right {
+    right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .video-container .product-card {
+        flex: 0 0 calc(33.333% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .video-container .product-card {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    .video-container .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-container .product-card {
+        flex: 0 0 calc(100% - 20px);
+    }
+}

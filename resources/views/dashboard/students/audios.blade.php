@@ -25,7 +25,7 @@
             <span>Grade 1</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/paristan-ki-dost-pariyan.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -35,7 +35,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/raja-aur-darzi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -45,7 +45,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/circus-ka-ghora.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -55,7 +55,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/sone-ki-kulhadi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -71,7 +71,7 @@
             <span>Grade 2</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/titli-ki-zindagi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -81,7 +81,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/rubina-ki-kahani.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -91,7 +91,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/laalach-buri-bala.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -101,7 +101,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/mehnat-ka-phal.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -117,7 +117,7 @@
             <span>Grade 3</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/sabz-khawabon-ka-bagh.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -127,7 +127,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/meri-ummi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -137,7 +137,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/television.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -147,7 +147,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/zakat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -163,7 +163,7 @@
             <span>Grade 4</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/bachon-ke-daanton.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -173,7 +173,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/mehal-zubaida.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -183,7 +183,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/Akhbarat-ki-Ahmiyat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -193,7 +193,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/Pani-ki-Ahmiyat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -209,7 +209,7 @@
             <span>Grade 5</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/abdulmuttalib-waqia.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -219,7 +219,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/qasim-ki-kahani.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -229,7 +229,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/Ghiza-or-Sehat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -239,7 +239,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/Piyas.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -255,7 +255,7 @@
             <span>Grade 6</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/syed-kamal-ahmad-rizvi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -265,7 +265,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/ilm-ki-fazeelat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -275,7 +275,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/kaghaz-ki-tareekh.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -285,7 +285,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/hamare-tehwar.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -301,7 +301,7 @@
             <span>Grade 7</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/taj-mahal.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -311,7 +311,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/science-ki-taraqqi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -321,7 +321,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/aurat-ki-azmat.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -331,7 +331,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/fizai-aloodgi.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -347,7 +347,7 @@
             <span>Grade 8</span>
         </div>
         <div class="row mb-5 audio-item-row">
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/oxygen.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #FB923C 0%, #EF4444 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -357,7 +357,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/pathan-qoum.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #60A5FA 0%, #A855F7 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -367,7 +367,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/german-shair-goethe.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
@@ -377,7 +377,7 @@
                 </div>
                 <button class="audio-card-button">Listen</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="assets/test_audio.mp3">
+            <div class="col-sm-12 col-md-6 col-xl-3 mt-2 audio-card" data-audio="{{ asset('assets/audios/mehnat-ka-phal.mp3') }}">
                 <div class="audio-card-icon" style="background: linear-gradient(90deg, #C084FC 0%, #EC4899 100%);">
                     <i class="fa-solid fa-headphones"></i>
                 </div>
