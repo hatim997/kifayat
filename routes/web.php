@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Auth::routes();
+// Auth::routes();
 Route::get('/', function () {
     return view('frontend.pages.choose-portal');
 })->name('choose-portal');
