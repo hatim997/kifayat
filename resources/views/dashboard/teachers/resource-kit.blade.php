@@ -511,7 +511,7 @@
                     <div class="vertical-bottom">
                         <span class="badge urdu">Urdu</span>
                         <div class="mute-text">
-                            <span>PDF • 90 pages</span>
+                            <span>PDF • 94 pages</span>
                         </div>
                     </div>
                 </div>
