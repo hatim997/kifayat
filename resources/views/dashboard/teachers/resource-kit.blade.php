@@ -25,7 +25,7 @@
             <span>English/Phonics</span>
         </div>
         <div class="boxes mt-5">
-            <a href="#" class="items-box">
+            <a href="{{ asset('assets/ebooks/english/MBS-Jr-Infant-Teaching-Guides') }}" class="items-box">
                 <img height="80px" src="{{ asset('assets/images/books/mbs-1.jpg') }}" alt="book">
                 <div class="box-title">
                     <span class="title">MBS Jr. Infant <br> Teaching Guide</span>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="items-box">
+            <a href="{{ asset('assets/ebooks/english/MBS-Sr-Infant-Teaching-Guides') }}" class="items-box">
                 <img height="80px" src="{{ asset('assets/images/books/mbs-2.jpg') }}" alt="book">
                 <div class="box-title">
                     <span class="title">MBS Jr. Infant <br> Teaching Guide</span>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="items-box">
+            <a href="{{ asset('assets/ebooks/english/My-book-of-Rhymes') }}" class="items-box">
                 <img height="80px" src="{{ asset('assets/images/books/mbs-3.jpg') }}" alt="book">
                 <div class="box-title">
                     <span class="title">MBS Jr. Infant <br> Teaching Guide</span>
