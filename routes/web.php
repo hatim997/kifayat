@@ -27,6 +27,7 @@ Route::get('/', function () {
     Route::get('student/login', [AuthController::class, 'studentLogin'])->name('student.login');
     Route::get('teacher/login', [AuthController::class, 'teacherLogin'])->name('teacher.login');
     Route::post('student/login-attempt', [AuthController::class, 'student_login_attempt'])->name('student.login.attempt');
+    Route::post('teacher/login-attempt', [AuthController::class, 'teacher_login_attempt'])->name('teacher.login.attempt');
 
 
 // Authentication Routes
