@@ -35,14 +35,14 @@ Route::group(['middleware' => ['auth']], function () {
 
     //Student Portal Routes
      Route::prefix('student')->name('student.')->group(function () {
-        Route::get('/portal', [StudentController::class, 'studentPortal'])->name('portal');
+        Route::get('/', [StudentController::class, 'studentPortal'])->name('portal');
         Route::get('/videos', [StudentController::class, 'studentVideos'])->name('videos');
         Route::get('/audios', [StudentController::class, 'studentAudios'])->name('audios');
     });
 
     //Teacher Portal Routes
      Route::prefix('teacher')->name('teacher.')->group(function () {
-        Route::get('/portal', [TeacherController::class, 'teacherPortal'])->name('portal');
+        Route::get('/', [TeacherController::class, 'teacherPortal'])->name('portal');
         Route::get('/answer-kit', [TeacherController::class, 'teacherAnswerKit'])->name('answer-kit');
         Route::get('/resource-kit', [TeacherController::class, 'teacherResourceKit'])->name('resource-kit');
     });
