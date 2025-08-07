@@ -1,5 +1,7 @@
 <div class="top-bar">
-    <img src="{{ asset('assets/images/logos/kifayat.png') }}" alt="Logo" height="50">
+    <a href="{{ route('choose-portal') }}">
+        <img src="{{ asset('assets/images/logos/kifayat.png') }}" alt="Logo" height="50">
+    </a>
     {{-- <img src="{{ asset('assets/images/account/profile.png') }}" alt="User" class="avatar"> --}}
 
     <!-- Avatar Trigger -->

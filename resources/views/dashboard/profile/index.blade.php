@@ -11,9 +11,9 @@
 @endsection
 
 @section('backbutton')
-    {{-- <a href="{{ route('choose-portal') }}" class="btn btn-back">
+    <a href="{{ route('choose-portal') }}" class="btn btn-back">
         <i class="fa-solid fa-arrow-left"></i> <span>BACK</span>
-    </a> --}}
+    </a>
 @endsection
 
 @section('content')
