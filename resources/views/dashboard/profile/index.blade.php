@@ -72,17 +72,27 @@
 @section('script')
     <script>
         const imageInput = document.getElementById('uploadImage');
-        const profilePreview = document.getElementById('profilePreview');
+        let profilePreview = document.getElementById('profilePreview');
         const previewInitials = document.getElementById('profilePreviewInitials');
+        let currentObjectURL = null;
 
         imageInput?.addEventListener('change', function() {
             const file = this.files[0];
             if (file && file.type.startsWith('image/')) {
+
+                // Revoke old URL if exists
+                if (currentObjectURL) {
+                    URL.revokeObjectURL(currentObjectURL);
+                }
+
                 const url = URL.createObjectURL(file);
+                currentObjectURL = url;
+
                 if (profilePreview) {
                     profilePreview.src = url;
                 } else if (previewInitials) {
                     previewInitials.outerHTML = `<img src="${url}" alt="Profile Picture" id="profilePreview">`;
+                    profilePreview = document.getElementById('profilePreview'); // Reassign reference
                 }
             }
         });
