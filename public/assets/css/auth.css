@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    overflow-y: auto;
+    background: linear-gradient(to right, #EFF6FF, #E0E7FF);
 }
 
 input:focus,
@@ -13,9 +16,10 @@ select:focus,
     /* optional: keeps original border color */
 }
 
-.gradient-background {
+/* .gradient-background {
     background: linear-gradient(to right, #EFF6FF, #E0E7FF);
-}
+    max-height: auto;
+} */
 
 .login-card {
     width: 100%;
@@ -25,6 +29,7 @@ select:focus,
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0px 25px 50px 0px #00000040;
+    margin-bottom: 40px;
 }
 
 .icon-circle {

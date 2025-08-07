@@ -41,7 +41,7 @@
         </form>
 
         <p class="text-center mt-3 font-14">
-            Don’t have an account? <a href="#" class="text-primary text-decoration-none">Contact Admin</a>
+            Don’t have an account? <a href="{{ route('teacher.register') }}" class="text-primary text-decoration-none">Contact Admin</a>
         </p>
     </div>
 @endsection

@@ -30,6 +30,12 @@ Route::get('/', function () {
     Route::post('student/login-attempt', [AuthController::class, 'student_login_attempt'])->name('student.login.attempt');
     Route::post('teacher/login-attempt', [AuthController::class, 'teacher_login_attempt'])->name('teacher.login.attempt');
 
+    //User Register Authentication Routes
+    Route::get('student/register', [AuthController::class, 'studentRegister'])->name('student.register');
+    Route::get('teacher/register', [AuthController::class, 'teacherRegister'])->name('teacher.register');
+    Route::post('student/register-attempt', [AuthController::class, 'student_register_attempt'])->name('student.register.attempt');
+    Route::post('teacher/register-attempt', [AuthController::class, 'teacher_register_attempt'])->name('teacher.register.attempt');
+
 
 // Authentication Routes
 Route::group(['middleware' => ['auth']], function () {
