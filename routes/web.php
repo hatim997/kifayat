@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Dashboard\ProfileController;
 use App\Http\Controllers\Dashboard\StudentController;
 use App\Http\Controllers\Dashboard\TeacherController;
 use Illuminate\Support\Facades\Auth;
@@ -33,6 +34,9 @@ Route::get('/', function () {
 // Authentication Routes
 Route::group(['middleware' => ['auth']], function () {
     Route::post('logout', [AuthController::class, 'logout'])->name('logout');
+
+    Route::get('profile', [ProfileController::class, 'index'])->name('profile.index');
+    Route::post('profile/update', [ProfileController::class, 'update'])->name('profile.update');
 
     //Student Portal Routes
      Route::prefix('student')->name('student.')->group(function () {
