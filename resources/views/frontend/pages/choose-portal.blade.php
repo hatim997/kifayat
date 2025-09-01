@@ -29,7 +29,7 @@
                                 </div>
                                 <h5 class="fw-bold mb-1 portal-card-title">Student Portal</h5>
                                 <p class="text-muted portal-card-para">Access videos, audiobooks, and digital learning
-                                    resources</p>
+                                    resources.</p>
                                 <div class="icons">
                                     <div class="video-icon">
                                         <i class="fa-solid fa-video"></i>
@@ -51,7 +51,7 @@
                                 </div>
                                 <h5 class="fw-bold mb-1 portal-card-title">Teacher Portal</h5>
                                 <p class="text-muted portal-card-para">Access teaching resources, lesson plans, and
-                                    educational materials</p>
+                                    educational materials.</p>
                                 <div class="icons">
                                     <div class="video-icon">
                                         <i class="fa-solid fa-book"></i>
