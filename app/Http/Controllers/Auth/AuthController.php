@@ -16,11 +16,11 @@ class AuthController extends Controller
 {
     public function studentLogin()
     {
-        if (Auth::check()) {
-            return redirect()->route('student.portal');
-        } else {
-            return view('auth.student-login');
-        }
+        return redirect()->route('student.portal');
+        // if (Auth::check()) {
+        // } else {
+        //     return view('auth.student-login');
+        // }
     }
 
     public function teacherLogin()
