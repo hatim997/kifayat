@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.master')
 
-@section('title', __('Uraan Urdu Series'))
+@section('title', __('Uraan Urdu Series Worksheets'))
 @section('description', '')
 @section('keywords', '')
 @section('author', '')
@@ -17,7 +17,7 @@
 
 @section('content')
     <div class="header-heading">
-        <span>Uraan Urdu Series</span>
+        <span>Uraan Urdu Series Worksheets</span>
     </div>
     <div class="container mt-5">
         @if (isset($urduClasses) && count($urduClasses) > 0)

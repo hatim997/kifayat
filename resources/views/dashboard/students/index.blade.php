@@ -90,7 +90,7 @@
                                 <i class="fa-solid fa-feather"></i>
                             </span>
                             <div class="quick-access-text">
-                                <p>Uraan Urdu Series</p>
+                                <p>Uraan Urdu Series Worksheets</p>
                                 <small>Learn Urdu with stories & visuals</small>
                             </div>
                         </div>

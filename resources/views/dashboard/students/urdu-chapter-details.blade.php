@@ -45,8 +45,11 @@
         }
 
         /* Right Content Area */
-        .chapter-content {
+        .chapter-content-wrapper {
             width: 75%;
+        }
+        .chapter-content {
+            width: 100%;
             padding: 20px;
             background: #ffffff;
             border-radius: 15px;
@@ -179,8 +182,16 @@
         </div>
 
         <!-- Content Area -->
-        <div class="chapter-content" id="chapterContentArea">
-            <p>Select a content from the left sidebar to view here.</p>
+        <div class="chapter-content-wrapper">
+            <div class="worksheet-toolbar" id="worksheetToolbar" style="display:none; margin:10px 30px; text-align: right;">
+                <button type="button" class="btn btn-primary btn-sm" id="printWorksheetBtn">
+                    <i class="fa fa-print"></i> Print
+                </button>
+            </div>
+
+            <div class="chapter-content" id="chapterContentArea">
+                <p>Select a content from the left sidebar to view here.</p>
+            </div>
         </div>
     </div>
 @endsection
@@ -196,13 +207,17 @@
             const ruffle = window.RufflePlayer?.newest();
 
             function loadSWF(url, linkElement) {
-                // Remove active classes
                 contentArea.classList.remove('worksheet-mode');
+
+                // Hide print toolbar
+                document.getElementById('worksheetToolbar').style.display = 'none';
+
                 links.forEach(l => l.classList.remove('active'));
                 worksheetLinks.forEach(l => l.classList.remove('active'));
                 linkElement.classList.add('active');
 
                 contentArea.innerHTML = '';
+
                 const swfDiv = document.createElement('div');
                 swfDiv.classList.add('swf-container');
                 contentArea.appendChild(swfDiv);
@@ -220,23 +235,22 @@
                 }
             }
 
+
             function loadWorksheet(url, linkElement) {
-                // Enable worksheet mode (for styling if needed)
                 contentArea.classList.add('worksheet-mode');
 
-                // Remove active state from all links
                 links.forEach(l => l.classList.remove('active'));
                 worksheetLinks.forEach(l => l.classList.remove('active'));
 
-                // Set active state on clicked worksheet link
                 linkElement.classList.add('active');
 
-                // Clear previous content
                 contentArea.innerHTML = '';
 
-                // Create iframe for PDF
+                // Show print toolbar
+                document.getElementById('worksheetToolbar').style.display = 'block';
+
                 const iframe = document.createElement('iframe');
-                iframe.src = url;
+                iframe.src = url + '#toolbar=0&navpanes=0&scrollbar=0';
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.minHeight = '650px';
@@ -244,10 +258,11 @@
                 iframe.style.borderRadius = '10px';
                 iframe.style.boxShadow = '0 4px 10px rgba(0,0,0,0.2)';
                 iframe.setAttribute('loading', 'lazy');
+                iframe.id = 'worksheetIframe';
 
-                // Append to content area
                 contentArea.appendChild(iframe);
             }
+
 
 
             // SWF click handler
@@ -274,6 +289,15 @@
             } else if (worksheetLinks.length > 0) {
                 loadWorksheet(worksheetLinks[0].dataset.url, worksheetLinks[0]);
             }
+
+            document.getElementById('printWorksheetBtn').addEventListener('click', function () {
+                const iframe = document.getElementById('worksheetIframe');
+                if (iframe && iframe.contentWindow) {
+                    iframe.contentWindow.focus();
+                    iframe.contentWindow.print();
+                }
+            });
+
         });
     </script>
 @endsection
