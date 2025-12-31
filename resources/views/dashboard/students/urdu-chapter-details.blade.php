@@ -48,7 +48,6 @@
         .chapter-content-wrapper {
             width: 100%;
         }
-
         .chapter-content {
             width: 100%;
             padding: 20px;
@@ -172,7 +171,7 @@
             @endif
 
             @if (!empty($classChapter->worksheet))
-                <a href="#" class="chapter-worksheet-link" data-url="{{ url('pdf-view/'.$classChapter->worksheet) }}">
+                <a href="#" class="chapter-worksheet-link" data-url="{{ asset($classChapter->worksheet) }}">
                     Student Worksheet
                 </a>
             @endif
@@ -242,20 +241,14 @@
 
                 links.forEach(l => l.classList.remove('active'));
                 worksheetLinks.forEach(l => l.classList.remove('active'));
+
                 linkElement.classList.add('active');
 
                 contentArea.innerHTML = '';
+
+                // Show print toolbar
                 document.getElementById('worksheetToolbar').style.display = 'block';
 
-                const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-                // ✅ MOBILE → open directly
-                if (isMobile) {
-                    window.open(url, '_blank');
-                    return;
-                }
-
-                // ✅ DESKTOP → iframe
                 const iframe = document.createElement('iframe');
                 iframe.src = url + '#toolbar=0&navpanes=0&scrollbar=0';
                 iframe.style.width = '100%';
@@ -263,10 +256,13 @@
                 iframe.style.minHeight = '650px';
                 iframe.style.border = 'none';
                 iframe.style.borderRadius = '10px';
+                iframe.style.boxShadow = '0 4px 10px rgba(0,0,0,0.2)';
+                iframe.setAttribute('loading', 'lazy');
                 iframe.id = 'worksheetIframe';
 
                 contentArea.appendChild(iframe);
             }
+
 
 
             // SWF click handler
@@ -294,7 +290,7 @@
                 loadWorksheet(worksheetLinks[0].dataset.url, worksheetLinks[0]);
             }
 
-            document.getElementById('printWorksheetBtn').addEventListener('click', function() {
+            document.getElementById('printWorksheetBtn').addEventListener('click', function () {
                 const iframe = document.getElementById('worksheetIframe');
                 if (iframe && iframe.contentWindow) {
                     iframe.contentWindow.focus();
