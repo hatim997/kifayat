@@ -46,7 +46,7 @@
 
         /* Right Content Area */
         .chapter-content-wrapper {
-            width: 75%;
+            width: 100%;
         }
         .chapter-content {
             width: 100%;
@@ -241,27 +241,29 @@
 
                 links.forEach(l => l.classList.remove('active'));
                 worksheetLinks.forEach(l => l.classList.remove('active'));
-
                 linkElement.classList.add('active');
 
                 contentArea.innerHTML = '';
-
-                // Show print toolbar
                 document.getElementById('worksheetToolbar').style.display = 'block';
 
                 const iframe = document.createElement('iframe');
-                iframe.src = url + '#toolbar=0&navpanes=0&scrollbar=0';
+
+                const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+                iframe.src = isMobile
+                    ? `https://docs.google.com/gview?url=${encodeURIComponent(url)}&embedded=true`
+                    : url + '#toolbar=0&navpanes=0&scrollbar=0';
+
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.minHeight = '650px';
                 iframe.style.border = 'none';
                 iframe.style.borderRadius = '10px';
-                iframe.style.boxShadow = '0 4px 10px rgba(0,0,0,0.2)';
-                iframe.setAttribute('loading', 'lazy');
-                iframe.id = 'worksheetIframe';
 
+                iframe.id = 'worksheetIframe';
                 contentArea.appendChild(iframe);
             }
+
 
 
 
