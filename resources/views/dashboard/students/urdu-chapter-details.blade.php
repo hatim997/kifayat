@@ -48,6 +48,7 @@
         .chapter-content-wrapper {
             width: 100%;
         }
+
         .chapter-content {
             width: 100%;
             padding: 20px;
@@ -171,7 +172,7 @@
             @endif
 
             @if (!empty($classChapter->worksheet))
-                <a href="#" class="chapter-worksheet-link" data-url="{{ asset($classChapter->worksheet) }}">
+                <a href="#" class="chapter-worksheet-link" data-url="{{ url('pdf-view/'.$classChapter->worksheet) }}">
                     Student Worksheet
                 </a>
             @endif
@@ -246,30 +247,26 @@
                 contentArea.innerHTML = '';
                 document.getElementById('worksheetToolbar').style.display = 'block';
 
-                const iframe = document.createElement('iframe');
-
                 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-                iframe.src = isMobile
-                    ? `https://docs.google.com/gview?url=${encodeURIComponent(url)}&embedded=true`
-                    : url + '#toolbar=0&navpanes=0&scrollbar=0';
+                // ✅ MOBILE → open directly
+                if (isMobile) {
+                    window.open(url, '_blank');
+                    return;
+                }
 
+                // ✅ DESKTOP → iframe
+                const iframe = document.createElement('iframe');
+                iframe.src = url + '#toolbar=0&navpanes=0&scrollbar=0';
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.minHeight = '650px';
                 iframe.style.border = 'none';
                 iframe.style.borderRadius = '10px';
-
-
                 iframe.id = 'worksheetIframe';
-                // 🔥 fallback
-                iframe.onerror = function () {
-                    window.open(url, '_blank');
-                };
+
                 contentArea.appendChild(iframe);
             }
-
-
 
 
             // SWF click handler
@@ -297,7 +294,7 @@
                 loadWorksheet(worksheetLinks[0].dataset.url, worksheetLinks[0]);
             }
 
-            document.getElementById('printWorksheetBtn').addEventListener('click', function () {
+            document.getElementById('printWorksheetBtn').addEventListener('click', function() {
                 const iframe = document.getElementById('worksheetIframe');
                 if (iframe && iframe.contentWindow) {
                     iframe.contentWindow.focus();
