@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\Models\AnimationClass;
 use App\Models\ClassChapter;
+use App\Models\UraanUrduClass;
+use App\Models\UrduClassChapter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
@@ -73,5 +75,37 @@ class StudentController extends Controller
         $file = $request->file; // swf path
 
         return view('dashboard.students.animation-preview', compact('file'));
+    }
+
+    public function uraanUrduSeries()
+    {
+        try {
+            $urduClasses = UraanUrduClass::with('classChapters')->get();
+            return view('dashboard.students.uraan-urdu-series', compact('urduClasses'));
+        } catch (\Throwable $th) {
+            // throw $th;
+            Log::error("Student Uraan Urdu Series View Failed:" . $th->getMessage());
+            return redirect()->back()->with('error', "Something went wrong! Please try again later");
+        }
+    }
+
+    public function urduChapterDetails($classSlug, $chapterSlug)
+    {
+        try {
+            $urduClass = UraanUrduClass::where('slug', $classSlug)->first();
+            $classChapter = UrduClassChapter::with('chapterContents')->where('slug', $chapterSlug)->where('urdu_class_id', $urduClass->id)->first();
+            return view('dashboard.students.urdu-chapter-details', compact('classChapter'));
+        } catch (\Throwable $th) {
+            // throw $th;
+            Log::error("Student Uraan Urdu Series View Failed:" . $th->getMessage());
+            return redirect()->back()->with('error', "Something went wrong! Please try again later");
+        }
+    }
+
+    public function urduPreview(Request $request)
+    {
+        $file = $request->file; // swf path
+
+        return view('dashboard.students.urdu-preview', compact('file'));
     }
 }

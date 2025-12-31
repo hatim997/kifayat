@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call([
             AnimationSeeder::class,
+            UraanUrduSeeder::class,
         ]);
     }
 }

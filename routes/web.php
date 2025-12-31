@@ -44,6 +44,9 @@ Route::get('/', function () {
         Route::get('/animations', [StudentController::class, 'studentAnimations'])->name('animations');
         Route::get('/animations/{class}/{chapter}', [StudentController::class, 'chapterDetails'])->name('animations.chapter');
         Route::get('/animations/preview', [StudentController::class, 'preview'])->name('animation.preview');
+        Route::get('/uraan-urdu-series', [StudentController::class, 'uraanUrduSeries'])->name('uraan-urdu-series');
+        Route::get('/uraan-urdu-series/{class}/{chapter}', [StudentController::class, 'urduChapterDetails'])->name('uraan-urdu-series.chapter');
+        Route::get('/uraan-urdu-preview', [StudentController::class, 'urduPreview'])->name('uraan-urdu.preview');
 
     });
 

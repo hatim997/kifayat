@@ -82,6 +82,22 @@
                     </div>
                 </a>
             </div>
+            <div class="col-md-3">
+                <a href="{{ route('student.uraan-urdu-series') }}">
+                    <div class="card p-3">
+                        <div class="quick-access-box">
+                            <span class="me-2 fs-4 icon-box purple-box">
+                                <i class="fa-solid fa-feather"></i>
+                            </span>
+                            <div class="quick-access-text">
+                                <p>Uraan Urdu Series</p>
+                                <small>Learn Urdu with stories & visuals</small>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
 
         <!-- Recent Videos -->

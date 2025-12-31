@@ -99,6 +99,11 @@
     font-size: 18px;
 }
 
+.purple-box {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
 .quick-access-text {
     margin-top: 14px;
     display: flex;
