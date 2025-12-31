@@ -260,7 +260,12 @@
                 iframe.style.border = 'none';
                 iframe.style.borderRadius = '10px';
 
+
                 iframe.id = 'worksheetIframe';
+                // 🔥 fallback
+                iframe.onerror = function () {
+                    window.open(url, '_blank');
+                };
                 contentArea.appendChild(iframe);
             }
 
