@@ -250,10 +250,10 @@
                 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
                 // ✅ MOBILE → open directly
-                if (isMobile) {
-                    window.open(url, '_blank');
-                    return;
-                }
+                // if (isMobile) {
+                //     window.open(url, '_blank');
+                //     return;
+                // }
 
                 // ✅ DESKTOP → iframe
                 const iframe = document.createElement('iframe');
