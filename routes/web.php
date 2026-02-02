@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.pages.choose-portal');
 })->name('choose-portal');
-// Guest Routes
+// Guest Routes hh
 
     //User Login Authentication Routes
     Route::get('student/login', [AuthController::class, 'studentLogin'])->name('student.login');
