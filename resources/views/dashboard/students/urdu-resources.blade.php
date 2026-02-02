@@ -127,7 +127,6 @@
         </div>
 
         {{-- Video --}}
-        {{-- Video --}}
         <div class="content-card">
             <div class="content-header">
                 <h4>
@@ -138,9 +137,10 @@
             </div>
 
             <div class="media-wrapper" oncontextmenu="return false">
-                <video id="chapterVideo" src="{{ asset('assets/urdu-resources/Khewra-Salt-Mine.mp4') }}"
-                    poster="{{ asset('assets/urdu-resources/video-poster.jpg') }}" controls preload="metadata" playsinline
-                    controlsList="nodownload noplaybackrate" disablePictureInPicture>
+                <video id="chapterVideo" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate"
+                    disablePictureInPicture>
+                    <source src="{{ asset('assets/urdu-resources/Khewra-Salt-Mine.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
                 </video>
             </div>
         </div>
