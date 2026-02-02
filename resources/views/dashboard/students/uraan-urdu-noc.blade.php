@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.master')
 
-@section('title', __('Chapter Details'))
+@section('title', __('Uraan Urdu Series NOCs'))
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('assets/css/dashboard/student-audios.css') }}" />
@@ -104,7 +104,7 @@
 @section('content')
 
     <div class="header-heading">
-        <span>Uraan Urdu Series Resources</span>
+        <span>Uraan Urdu Series NOCs</span>
     </div>
 
     <div class="chapter-container">
@@ -114,7 +114,7 @@
             <div class="content-header">
                 <h4>
                     <i class="fa-solid fa-book-open"></i>
-                    Chapter Article
+                    NOC
                 </h4>
                 <div class="worksheet-toolbar" id="worksheetToolbar"
                     style="margin:10px 30px; text-align: right;">
@@ -126,32 +126,11 @@
             </div>
 
             <div class="media-wrapper" oncontextmenu="return false">
-                <iframe id="worksheetIframe" src="{{ asset('assets/urdu-resources/lahore-famous-places.pdf') }}#toolbar=0&navpanes=0&scrollbar=0"
+                <iframe id="worksheetIframe" src="{{ asset('assets/urdu-resources/NOC-Uraan-1-5.pdf') }}#toolbar=0&navpanes=0&scrollbar=0"
                     loading="lazy">
                 </iframe>
             </div>
         </div>
-
-        {{-- Video --}}
-        <div class="content-card">
-            <div class="content-header">
-                <h4>
-                    <i class="fa-brands fa-youtube"></i>
-                    Video Lecture
-                </h4>
-                <span class="badge-type">View Only</span>
-            </div>
-
-            <div class="media-wrapper" oncontextmenu="return false">
-                <video id="chapterVideo" controls preload="metadata" playsinline controlsList="nodownload noplaybackrate"
-                    disablePictureInPicture>
-                    <source src="{{ asset('assets/urdu-resources/Khewra-Salt-Mine.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-
-
     </div>
 @endsection
 

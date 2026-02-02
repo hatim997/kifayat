@@ -50,6 +50,9 @@ Route::get('/', function () {
         Route::get('/uraan-urdu-series-resources', function () {
             return view('dashboard.students.urdu-resources');
         })->name('urdu-resources');
+        Route::get('/uraan-urdu-series-nocs', function () {
+            return view('dashboard.students.uraan-urdu-noc');
+        })->name('urdu-nocs');
 
     });
 
