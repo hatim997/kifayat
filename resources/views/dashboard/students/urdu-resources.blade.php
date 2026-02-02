@@ -151,14 +151,7 @@
 
 @section('script')
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const video = document.getElementById('chapterVideo');
-            if (video) {
-                video.load(); // forces early buffering
-            }
-        });
-
-        // Disable right-click on media
+        // Extra safety: disable right click globally on media
         document.addEventListener('contextmenu', function(e) {
             if (e.target.closest('.media-wrapper')) {
                 e.preventDefault();
