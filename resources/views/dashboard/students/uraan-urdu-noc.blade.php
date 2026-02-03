@@ -110,7 +110,7 @@
     <div class="chapter-container">
 
         {{-- Blog / PDF --}}
-        <div class="content-card">
+        {{-- <div class="content-card">
             <div class="content-header">
                 <h4>
                     <i class="fa-solid fa-book-open"></i>
@@ -122,15 +122,14 @@
                         <i class="fa fa-print"></i> Print
                     </button>
                 </div>
-                {{-- <span class="badge-type">Read Only</span> --}}
             </div>
 
-            {{-- <div class="media-wrapper" oncontextmenu="return false">
+            <div class="media-wrapper" oncontextmenu="return false">
                 <iframe id="worksheetIframe" src="{{ asset('assets/urdu-resources/NOC-Uraan-1-5.pdf') }}#toolbar=0&navpanes=0&scrollbar=0"
                     loading="lazy">
                 </iframe>
-            </div> --}}
-        </div>
+            </div>
+        </div> --}}
     </div>
 @endsection
 
