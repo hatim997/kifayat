@@ -110,7 +110,7 @@
     <div class="chapter-container">
 
         {{-- Blog / PDF --}}
-        {{-- <div class="content-card">
+        <div class="content-card">
             <div class="content-header">
                 <h4>
                     <i class="fa-solid fa-book-open"></i>
@@ -129,7 +129,7 @@
                     loading="lazy">
                 </iframe>
             </div>
-        </div> --}}
+        </div>
     </div>
 @endsection
 
