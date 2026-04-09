@@ -250,7 +250,7 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 147 pages</span>
+                            <span>PDF • 55 pages</span>
                         </div>
                     </div>
                 </div>
@@ -262,19 +262,43 @@
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 188 pages</span>
+                            <span>PDF • 45 pages</span>
                         </div>
                     </div>
                 </div>
             </a>
             <a href="{{ asset('assets/ebooks/gk/Small-World-Class-3') }}" target="_blank" class="items-box">
-                <img height="80px" src="{{ asset('assets/images/books/small-world-class-4.jpg') }}" alt="book">
+                <img height="80px" src="{{ asset('assets/images/books/small-world-class-3.jpg') }}" alt="book">
                 <div class="box-title">
                     <span class="title">Small World <br> Class 3</span>
                     <div class="vertical-bottom">
                         <span class="badge science">Science</span>
                         <div class="mute-text">
-                            <span>PDF • 214 pages</span>
+                            <span>PDF • 40 pages</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ asset('assets/ebooks/gk/Small-World-Class-4') }}" target="_blank" class="items-box">
+                <img height="80px" src="{{ asset('assets/images/books/small-world-class-4.jpg') }}" alt="book">
+                <div class="box-title">
+                    <span class="title">Small World <br> Class 4</span>
+                    <div class="vertical-bottom">
+                        <span class="badge science">Science</span>
+                        <div class="mute-text">
+                            <span>PDF • 78 pages</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ asset('assets/ebooks/gk/Small-World-Class-5') }}" target="_blank" class="items-box">
+                <img height="80px" src="{{ asset('assets/images/books/small-world-class-5.jpg') }}" alt="book">
+                <div class="box-title">
+                    <span class="title">Small World <br> Class 5</span>
+                    <div class="vertical-bottom">
+                        <span class="badge science">Science</span>
+                        <div class="mute-text">
+                            <span>PDF • 68 pages</span>
                         </div>
                     </div>
                 </div>
