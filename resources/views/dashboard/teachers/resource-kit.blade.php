@@ -224,7 +224,7 @@
                 <div class="box-title">
                     <span class="title">Small World <br> Junior TG</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 71 pages</span>
                         </div>
@@ -236,7 +236,7 @@
                 <div class="box-title">
                     <span class="title">Small World <br> Senior TG</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 147 pages</span>
                         </div>
@@ -248,7 +248,7 @@
                 <div class="box-title">
                     <span class="title">Small World <br> Class 1</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 147 pages</span>
                         </div>
@@ -260,7 +260,7 @@
                 <div class="box-title">
                     <span class="title">Small World <br> Class 2</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 188 pages</span>
                         </div>
@@ -272,7 +272,7 @@
                 <div class="box-title">
                     <span class="title">Small World <br> Class 3</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 214 pages</span>
                         </div>
@@ -284,7 +284,7 @@
                 <div class="box-title">
                     <span class="title">Small World SNC <br> Class 1</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 55 pages</span>
                         </div>
@@ -296,7 +296,7 @@
                 <div class="box-title">
                     <span class="title">Small World SNC <br> Class 2</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 45 pages</span>
                         </div>
@@ -308,7 +308,7 @@
                 <div class="box-title">
                     <span class="title">Small World SNC <br> Class 3</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">GK</span>
                         <div class="mute-text">
                             <span>PDF • 40 pages</span>
                         </div>
@@ -327,7 +327,7 @@
                 <div class="box-title">
                     <span class="title">Small World SNC <br> Class 4</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">SST</span>
                         <div class="mute-text">
                             <span>PDF • 78 pages</span>
                         </div>
@@ -339,7 +339,7 @@
                 <div class="box-title">
                     <span class="title">Small World SNC <br> Class 5</span>
                     <div class="vertical-bottom">
-                        <span class="badge science">Science</span>
+                        <span class="badge science">SST</span>
                         <div class="mute-text">
                             <span>PDF • 68 pages</span>
                         </div>
