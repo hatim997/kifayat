@@ -59,15 +59,15 @@ class StudentController extends Controller
     }
     public function chapterDetails($classSlug, $chapterSlug)
     {
-        try {
-            $animationClass = AnimationClass::where('slug', $classSlug)->first();
-            $classChapter = ClassChapter::with('chapterContents')->where('slug', $chapterSlug)->where('class_id', $animationClass->id)->first();
-            return view('dashboard.students.chapter-details', compact('classChapter'));
-        } catch (\Throwable $th) {
-            // throw $th;
-            Log::error("Student Animations View Failed:" . $th->getMessage());
-            return redirect()->back()->with('error', "Something went wrong! Please try again later");
-        }
+        // try {
+        //     $animationClass = AnimationClass::where('slug', $classSlug)->first();
+        //     $classChapter = ClassChapter::with('chapterContents')->where('slug', $chapterSlug)->where('class_id', $animationClass->id)->first();
+        //     return view('dashboard.students.chapter-details', compact('classChapter'));
+        // } catch (\Throwable $th) {
+        //     // throw $th;
+        //     Log::error("Student Animations View Failed:" . $th->getMessage());
+        //     return redirect()->back()->with('error', "Something went wrong! Please try again later");
+        // }
     }
 
     public function preview(Request $request)
